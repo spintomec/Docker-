@@ -1,0 +1,8 @@
+version: '3.9'
+services: 
+	image: nginx
+	container_name: nginx_container
+	volumes: nginx_data:/var/lib/nginx
+	restart: always
+volumes: 
+	db_data: {}  
